@@ -1,0 +1,8 @@
+.logo-header {
+    display: flex;
+    justify-content: flex-center;
+}
+.logo-img {
+    height: 9vh;
+    width: 7vw;
+}
