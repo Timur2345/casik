@@ -1,8 +1,50 @@
 .logo-header {
     display: flex;
-    justify-content: flex-center;
+    justify-content: space-between;
+    background-color: #3F3B7B;
 }
+.logo-header-left {
+    display: flex;
+    align-items: center;
+    color: #14A7F0;
+   
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #3F3B7B;
+} 
+
 .logo-img {
     height: 9vh;
-    width: 7vw;
+    width: 5vw;
 }
+.main-img {
+    height: 40vh;
+    width: 40vw;
+}
+
+.main-text{
+    padding-right: 100px;
+    font-family: "Semi Bold";
+    font-family: 'Inter'; 
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 2.5em; 
+}
+
+.button {
+    background-color: #843FD8;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 50px;
+    width:  35vw;
+    height: 15vh;
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+
