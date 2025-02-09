@@ -2,9 +2,68 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color:rgb(90, 18, 156);
+}
 .shapka {
-    weight: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 40px);
     height: 5%;
-    background-color:blueviolet;
+    background-color:rgb(102, 77, 170);
+    color: white;
+}
+.shpka-left {
+    display: flex;
+    align-items: center;
+}
+.shapka img {
+    width: 5vw;
+}
+
+.button{
+    border-radius: 20px;
+    background-color:rgb(171, 101, 250);
+    text-align: right;
+    padding: 20px;
+    color: white;
+
+}
+.first{
+    background-color:rgb(102, 77, 170);
+}
+.second{
+    background-color:rgb(102, 77, 170);
+}
+.third{
+    background-color:rgb(102, 77, 170);
+}
+.slotyki {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slot {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boom{
+    width: 20vw;
+    height: 20vh;
+    background-color:rgb(192, 14, 82);
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5%;
     
+
+
+
 }
