@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color:rgb(90, 18, 156);
+    background-color:rgb(57, 28, 124);
 }
 .shapka {
     margin: 20px;
@@ -12,10 +12,10 @@ body{
     justify-content: space-between;
     width: calc(100% - 40px);
     height: 5%;
-    background-color:rgb(102, 77, 170);
+    background-color:rgb(70, 46, 136);
     color: white;
 }
-.shpka-left {
+.shapka-left {
     display: flex;
     align-items: center;
 }
@@ -32,13 +32,13 @@ body{
 
 }
 .first{
-    background-color:rgb(102, 77, 170);
+    background-color:rgb(70, 46, 136);
 }
 .second{
-    background-color:rgb(102, 77, 170);
+    background-color:rgb(70, 46, 136);
 }
 .third{
-    background-color:rgb(102, 77, 170);
+    background-color:rgb(70, 46, 136);
 }
 .slotyki {
     display: flex;
@@ -46,24 +46,29 @@ body{
     justify-content: space-evenly;
 }
 .slot {
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .boom{
-    width: 20vw;
+    width: 10vw;
     height: 20vh;
     background-color:rgb(192, 14, 82);
     border-radius: 100px;
+    display: flex; 
+
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5%;
+    font-size: 10%;
+
+}
+.boom:hover{
+    transition-duration: .5s;
+    transform: scale(1.1);
     
-
-
-
+    
 }
