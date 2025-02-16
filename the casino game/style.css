@@ -1,0 +1,16 @@
+.slot-machine {
+    margin: 10vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reel {
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid black;
+}
+
+#spin {
+    
+}

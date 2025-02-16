@@ -1,0 +1,73 @@
+body {
+    background-color: #380874;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3B7B;
+}
+
+.logo-header-left {
+    display: flex;
+    align-items: center;
+    color: #14A7F0;
+    font-size: 1.5em;
+}
+.logo-header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.enter-button {
+    background-color: #843FD8;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 80px;
+    font-size: 1.5em;
+    width:  8vw;
+    height: 5vh;
+    margin-left: 5vw;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    height: 40vh;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
