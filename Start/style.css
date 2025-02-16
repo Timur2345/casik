@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #380874;
+}
+
 .logo-header {
     display: flex;
     justify-content: space-between;
@@ -7,11 +16,17 @@
     display: flex;
     align-items: center;
     color: #14A7F0;
-   
+    font-size: 1.5em;
 }
+.logo-header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
 .description {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     padding: 50px;
@@ -19,32 +34,51 @@
 } 
 
 .logo-img {
-    height: 9vh;
+    height: 9.5vh;
     width: 5vw;
+    margin: 1vh;
 }
 .main-img {
-    height: 40vh;
+    height: 50vh;
     width: 40vw;
 }
 
 .main-text{
-    padding-right: 100px;
     font-family: "Semi Bold";
     font-family: 'Inter'; 
     font-style: normal;
     color: #FFFFFF;
-    font-size: 2.5em; 
+    font-size: 3.5em;
+    margin-bottom: 5vh; 
 }
 
-.button {
+.button, .enter-button {
     background-color: #843FD8;
     color: #FFFFFF;
     border: 0;
-    border-radius: 50px;
+    border-radius: 80px;
+}
+.button {
+    font-size: 4.5em;
     width:  35vw;
     height: 15vh;
-    font-size: 2em;
-    margin-top: 5vh;
+    margin-left: 4vw;
+    position: relative;
+    top: -10vh;
+} 
+
+.enter-button {
+    font-size: 1.5em;
+    width:  8vw;
+    height: 5vh;
+    margin-left: 5vw;
 }
 
-
+.oval {
+    width: 45vw;
+    height: 11vh;
+    background: #380874;
+    border-radius: 50%;
+    position: relative;
+    top: -5vh;
+}
