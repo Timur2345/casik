@@ -62,7 +62,7 @@ body{
     margin-left: 35vw;
 
 }
-.window{
+.window {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -71,10 +71,11 @@ body{
     width: 70vw;
     height: 20vh;
 }
+
 .window * {
     text-align: center;
-    border: 1px solid black;
 }
+
 .balance-1{
     font-size: 3em;
     padding-right: 14vw;
@@ -95,7 +96,8 @@ body{
     margin: 5vh 30vw;
     background-color: #843FD8;
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 3em;
+    border: 0;
     border-radius: 50px;
     width: 40vw;
     height: 10vh;
