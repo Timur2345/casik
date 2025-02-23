@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background-color: #380874;
     font-family: sans-serif;
@@ -11,10 +15,16 @@ body {
     background-color: #3F3B7B;
 }
 
+.logo-img {
+    height: 9.5vh;
+    width: 5vw;
+    margin: 1vh;
+}
+
 .logo-header-left {
     display: flex;
     align-items: center;
-    color: #14A7F0;
+    color: #14A7F0; 
     font-size: 1.5em;
 }
 .logo-header-right {
@@ -71,3 +81,29 @@ body {
     border: none;
     cursor: pointer;
 }
+
+     /* Изменяет цвет всего текста на странице */
+     body {
+
+        color: white;
+      }
+ 
+      /* Изменяет цвет текста внутри параграфа с классом "special" */
+      .special {
+        color: green;
+      }
+      
+      body {
+       font-family: Arial, sans-serif; /* Задаем основной шрифт */
+       font-size: 32px; /* Задаем основной размер шрифта */
+     }
+
+     h1 {
+       font-family: Arial, sans-serif; /* Шрифт для заголовков h1 */
+       font-size: 2em; /* Размер шрифта для h1 (в em относительно родительского элемента) */
+     }
+
+     p {
+       font-size: 1.1em; /* Размер шрифта для параграфов */
+     }
+     
