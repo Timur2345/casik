@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+    <header>
+        <div class="logo-header">
+            <div class="logo-header-left">
+                <img class="logo-img" src="./Images/Logo.png" >
+                <h1 class="logo-text">CapyLuck</h1>
+            </div>
+            <div class="logo-header-right">
+                <button class="enter-button">Войти</button>
+            </div>
+        </div>
+    </header>
     <div class="slot-machine">
         <div class="reel"></div>
         <div class="reel"></div>
@@ -17,6 +26,6 @@
     </div>
     <button id="spin">Вращать!</button>
     <div id="result"></div>
+    <button class="total-button">К итогам</button>
 </body>
-
 </html>
