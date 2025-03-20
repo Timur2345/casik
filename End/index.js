@@ -21,29 +21,29 @@ button.addEventListener("click", function () {
 })
 
 enter_button.addEventListener("click", function () {
-    window.open("./Images/picture.png")
+    window.open("./Images/picture.jpg")
 })
 
 price_1.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money1.png")
 })
 
 price_2.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money2.png")
 })
 
 price_3.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money3.png")
 })
 
 price_4.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money4.png")
 })
 
 price_5.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money5.png")
 })
 
 price_6.addEventListener("click", function () {
-  window.open("./Images/picture.png")
+  window.open("./Images/no_money6.png")
 })

@@ -91,4 +91,22 @@ img {
 img:hover {
   transform: scale(1.1);
 }
+
+.enter-button:hover {
+  opacity: 0.8;
+  transform: scale(1.1)
+}
+
+.enter-button:active {
+  transform: scale(0.95);
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.1)
+}
+
+button:active {
+  transform: scale(0.95);
+}
         
